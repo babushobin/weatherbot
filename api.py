@@ -8,4 +8,4 @@ app.config["DEBUG"] = True
 def home():
     return "<h1>First Python App</h1><p>First web app in python</p>"
 
-app.run()
+app.run(port=5000)
